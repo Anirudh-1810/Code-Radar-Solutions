@@ -5,11 +5,9 @@ int main() {
     int b;
     scanf("%d\t",&a);
     scanf("%d",&b);
-    if(a&&b){
+    if(a&&b)
         printf("True");
-    }
-    else{
+    else
         printf("False");
-    }
     return 0;
 }
