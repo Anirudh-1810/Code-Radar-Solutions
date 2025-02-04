@@ -8,8 +8,7 @@ int main() {
         printf("Divisible");
     }
     else{
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
-    printf("%s", welcome());
     return 0;
 }
