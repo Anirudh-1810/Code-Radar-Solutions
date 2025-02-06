@@ -15,7 +15,12 @@ int main() {
             printf("%d",a*b);
             break;
         case '/':
-            printf("%f",a/b);
+            if(b==0){
+                printf("error");
+            }
+            else{
+                printf("%.2f",a/b);
+            }
             break;
         default:
             printf("error");
