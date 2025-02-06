@@ -6,17 +6,17 @@ int main() {
     scanf("%d\t%d\%c",&a,&b,&o);
     switch(o){
         case '+':
-        printf("%d",a+b);
-        break;
+            printf("%d",a+b);
+            break;
         case '-':
-        printf("%d",a-b);
-        break;
+            printf("%d",a-b);
+            break;
         case '*':
-        printf("%d",a*b);
-        break;
+            printf("%d",a*b);
+            break;
         case '/':
-        printf("%.2f",a/b);
-        break;
+            printf("%.2f",a/b);
+            break;
     }
 
     return 0;
