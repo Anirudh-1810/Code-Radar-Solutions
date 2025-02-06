@@ -18,6 +18,6 @@ int main() {
         printf("%.2f",a/b);
         break;
     }
-    printf("%s", welcome());
+
     return 0;
 }
